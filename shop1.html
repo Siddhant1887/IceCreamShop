@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream Website</title>
+    <link rel="icon" href="./images/creamlogo.jpg" type="image/x-icon"><!--using this link you can change website icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!------fontawesome icons------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./images/creamlogo.jpg" height="70" width="120"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="shop.html">SHOP</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PRODUCTS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./product1.html">Scoops</a></li>
+                      <li><a class="dropdown-item" href="./product2.html">Family Packs</a></li>
+                      <li><a class="dropdown-item" href="./product3.html">Mix Flavours</a></li>
+                      <li><a class="dropdown-item" href="./product4.html">Chocobars</a></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contactus.html" tabindex="-1" aria-disabled="true">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./login.html" tabindex="-1" aria-disabled="true">LOGIN</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page</title>
+        <style>
+            
+            .containers {
+                display: flex;
+                background: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .image {
+                max-width: 50%;
+                object-fit: cover;
+            }
+            .description {
+                padding: 20px;
+                max-width: 50%;
+            }
+            .description h1 {
+                margin-top: 0;
+            }
+            .description p {
+                color: #555;
+            }
+            .description .price {
+                color: #e74c3c;
+                font-size: 1.5em;
+                margin-top: 10px;
+            }
+            .description .buy-button {
+                margin-top: 20px;
+            }
+            .description .buy-button button {
+                background-color: #3498db;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .description .buy-button button:hover {
+                background-color: #2980b9;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="containers">
+            <img src="./images/products/american.jpg" alt="Product Image" class="image">
+            <div class="description">
+                <h1>American DryFruit</h1>
+                <p>American Dryfruit Ice Cream is a luxurious and rich dessert that combines the creamy texture of premium ice cream with the crunch and natural sweetness of assorted dry fruits.It is a gourmet treat that brings together the finest quality ingredients to create a delightful and indulgent experience. This ice cream is perfect for those who appreciate the richness of dry fruits and the creamy smoothness of high-quality ice cream.</p>
+                <p>120/- <del>150</del> <span style="color:red">flat 15% Off</span></p>
+                <div class="buy-button">
+                    <a href="#" class="btn btn-danger">Add To cart</a>
+                    <a href="./payment.html" class="btn btn-primary">Buy Now</a>
+                </div><br><br>
+                <h6>Ingredients</h6>
+                <p>-Milk and Cream: The base of the ice cream, providing a rich and creamy texture.<br>
+                    -Sugar: Adds sweetness and enhances the flavors of the other ingredients.<br>
+                   - Assorted Dry Fruits: A mix of premium almonds, cashews, pistachios, walnuts, and raisins, finely chopped and blended into the ice cream.<br>
+                    -Natural Flavors: Vanilla and a hint of cardamom to complement the dry fruits.<br>
+                    -Stabilizers and Emulsifiers: Ensure a smooth and consistent texture.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+
+    <div class="footer py-5">
+        <div class="container footerContainer">
+          <div class="row footerData">
+            <div class="col-lg-4 col-sm-12">
+                <center><h3>Free Shipping</h3></center>
+                <hr style="color:white"/>
+                <div class="row">
+                    <div class="col-md-3">
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <p>100% Secure.<br>Free shipping on  first 3 orders. We provide fastest delivery. Place your order today.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <center><h3>Money Gurantee</h3></center>
+                <hr style="color:white"/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <p>100% Secure.<br> Refund is assured to the customer, in case, if the product received is damaged or improper.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <center><h3>online support</h3></center>
+                <hr style="color:white"/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <p>We provide 24x7 online support to our customers for any concerns/queries.<br/>
+                        <i class="fa-solid fa-phone" style="font-size: small;"></i>+91 9119536144<br/>
+                        <i class="fa-solid fa-envelope" style="font-size: small;"></i> siddhantnikam66@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-12">
+              <center><h3>Gift Service</h3></center>
+              <hr style="color:white"/>
+              <div class="row">
+                  <div class="col-md-3">
+                    <i class="fa-solid fa-gift"></i>
+                  </div>
+                  <div class="col-md-9">
+                      <p>We provide various Gifts and Vouchers for Users.</p>
+                  </div>
+              </div>
+            
+          </div> 
+         
+
+          <div class="col-lg-4 col-sm-12">
+            <center><h3>Return</h3></center>
+            <hr style="color:white"/>
+            <div class="row">
+                <div class="col-md-3">
+                  <i class="fa-solid fa-retweet"></i>
+                </div>
+                <div class="col-md-9">
+                    <p>Easy return available in case of faulty products.</p>
+                </div>
+            </div> 
+        </div>
+          
+        </div>
+        <hr>
+        <div class="container-fluid text-center ">
+            <div class="row-lg-8 m-auto">
+                <p>Copyright © 2024. All Rights Reserved &nbsp;&nbsp;<img src="./images/visa.png" height="35px" width="50px">
+                    <img src="./images/rupay.png" height="35px" width="50px">
+                    <img src="./images/mastercard.png" height="35px" width="50px">
+                    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
